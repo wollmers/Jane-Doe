@@ -1,0 +1,30 @@
+# hidden files
+.*
+!.gitignore
+!.perltidyrc
+!.perlcriticrc
+!.travis.yml
+
+# MAC specific
+._*
+.DS_Store
+
+# editor backup files
+*~
+*.bak
+
+# generated build files
+blib
+Makefile*
+!Makefile.PL
+
+
+/Jane-Doe-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove
+
+
