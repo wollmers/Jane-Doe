@@ -23,7 +23,11 @@ John::Doe - A test distribution using similar file names
 
 =head1 DESCRIPTION
 
-Don't install or use it, it is BROKEN by intent.
+Don't install or use it, except for testing module toolchains.
+
+The distribution has files with non-ASCII filenames under C<share/>, UTF-8 encoded, in normalization variants, and confusable variants.
+
+In theory the involved tools should work, but with a high chance they fail.
 
 =head1 AUTHOR
 
